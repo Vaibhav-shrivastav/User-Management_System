@@ -1,8 +1,16 @@
-# React + Vite
+# User Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend web application that displays users in the form of cards.
 
-Currently, two official plugins are available:
+## Functionality:
+- Fethes user details from API `https://jsonplaceholder.typicode.com/users`
+and displays it's details in the form of cards.
+- Add user feature enables adding new user to the same list of cards
+- Local storage allows you to access the user details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack
+- Reactjs and Bootstrap
+
+## Snapshot:
+
+<img src='src/media/ScreenshotHome.png'>
